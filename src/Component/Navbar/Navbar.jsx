@@ -28,17 +28,7 @@ const Navbar = () => (
       </ul>
     </div>
     <div className="navbar-end">
-      <label htmlFor="my-modal" className="btn">open modal</label>
-      <input type="checkbox" id="my-modal" className="modal-toggle" />
-      <div className="modal w-1/2 h-1/2">
-        <div className="modal-box">
-          <h3 className="font-bold text-lg">Congratulations random Internet user!</h3>
-          <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
-          <div className="modal-action">
-            <label htmlFor="my-modal" className="btn">Yay!</label>
-          </div>
-        </div>
-      </div>
+      <label htmlFor="my-modal" className="btn bg-blue-500 text-white ">Contact Us</label>
     </div>
   </div>
 );
