@@ -8,7 +8,7 @@ const Banner = () => (
       <p className="text-white mb-5">There are many different legal solution passages available, but most of them <br/> have undergone some kind of modification due to the addition of comedy.</p>
       <div>
         <input type="text" placeholder="Search Your Service" className="input mb-5 w-full max-w-xs" />
-        <button className="btn btn-info ml-5">Submit</button>
+        <button className="btn bg-blue-500 text-white hover:bg-blue-500 border-none ml-5">Submit</button>
       </div>
     </div>
   </section>
