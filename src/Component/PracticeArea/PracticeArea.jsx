@@ -33,8 +33,8 @@ const PracticeArea = () => (
           <figure><img className="mt-6 w-12" src={area.imgSrc} alt={area.title} /></figure>
           <div className="card-body">
             <h2 className="card-title mx-auto">{area.title}</h2>
-            <p className="text-gray-400 text-sm">
-              There are many variations of passages of {area.title.toLowerCase()} available, but the majority have suffered alteration in some form, by injected humour.
+            <p className="text-gray-400 text-sm text-justify">
+            There are many different versions of {area.title.toLowerCase()} sections accessible, but most of them have been altered in some way by the addition of humour.
             </p>
             <div className="card-actions justify-center">
               <img className="w-8" src={frameImg} alt="Frame" />

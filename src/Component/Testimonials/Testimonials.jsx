@@ -1,7 +1,6 @@
 // src/components/Testimonials.js
 import React from 'react';
-import icon1 from '../../assets/slider-1.jpg';
-import icon2 from '../../assets/slider-2.jpg';
+import icon1 from '../../assets/1.png';
 
 const Testimonials = () => {
   return (
@@ -13,8 +12,8 @@ const Testimonials = () => {
           suffered alteration in some form, by injected humour.
         </p>
       </div>
-      <div className="carousel mt-10">
-        <div className="carousel-item">
+      <div className="mt-10 flex justify-between">
+        <div className="">
           <div className="card w-96 mx-auto bg-base-100 shadow-xl">
             <div className="card-body">
               <p>
@@ -38,7 +37,7 @@ const Testimonials = () => {
               </p>
             </div>
             <div className="flex mx-auto mb-10">
-              <img className="w-14 mr-5" src={icon2} alt="Client" />
+              <img className="w-14 mr-5" src={icon1} alt="Client" />
               <div>
                 <h3>Kevin Martin</h3>
                 <p>Founder and CEO</p>
@@ -46,6 +45,23 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
+        <div className="carousel-item">
+          <div className="card w-96 mx-auto bg-base-100 shadow-xl">
+            <div className="card-body">
+              <p>
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+              </p>
+            </div>
+            <div className="flex mx-auto mb-10">
+              <img className="w-14 mr-5" src={icon1} alt="Client" />
+              <div>
+                <h3>Kevin Martin</h3>
+                <p>Founder and CEO</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </section>
   );

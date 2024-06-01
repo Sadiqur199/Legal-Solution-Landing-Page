@@ -3,6 +3,8 @@ import Navbar from '../Component/Navbar/Navbar';
 import Banner from '../Component/Banner/Banner';
 import PracticeArea from '../Component/PracticeArea/PracticeArea';
 import Testimonials from '../Component/Testimonials/Testimonials';
+import FAQ from '../Component/FAQ/FAQ';
+import Contact from '../Component/Contact/Contact';
 
 const Main = () => {
   return (
@@ -11,6 +13,8 @@ const Main = () => {
       <Banner></Banner>
       <PracticeArea></PracticeArea>
       <Testimonials></Testimonials>
+      <FAQ></FAQ>
+      <Contact></Contact>
     </div>
   );
 };
