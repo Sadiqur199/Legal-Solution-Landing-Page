@@ -1,7 +1,5 @@
-// src/components/FAQ.js
 import React from 'react';
-import faqImage from '../../assets/faq.png'; // Make sure to place the image in the appropriate directory
-
+import faqImage from '../../assets/faq.png'; 
 const FAQ = () => {
   return (
     <div className="mt-10 mb-10">
