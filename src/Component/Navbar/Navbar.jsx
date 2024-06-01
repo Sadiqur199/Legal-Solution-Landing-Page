@@ -28,7 +28,7 @@ const Navbar = () => (
       </ul>
     </div>
     <div className="navbar-end">
-      <label htmlFor="my-modal" className="btn bg-blue-500 text-white ">Contact Us</label>
+      <label htmlFor="my-modal" className="btn bg-blue-500 text-white hover:bg-blue-500">Contact Us</label>
     </div>
   </div>
 );
