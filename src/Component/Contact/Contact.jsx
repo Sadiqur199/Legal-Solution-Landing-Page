@@ -28,7 +28,7 @@ const Contact = () => {
           Feel free to reach out to us using the form below.
         </p>
       </div>
-      <form onSubmit={handleSubmit} className="w-[90%] mt-10 mx-auto bg-gray-100 p-5 rounded-box">
+      <form onSubmit={handleSubmit} className="w-[100%] mt-10 mx-auto bg-gray-100 p-10 rounded-box">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
             Name
