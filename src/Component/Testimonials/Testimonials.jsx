@@ -1,4 +1,3 @@
-// src/components/Testimonials.js
 import React from 'react';
 import icon1 from '../../assets/1.png';
 

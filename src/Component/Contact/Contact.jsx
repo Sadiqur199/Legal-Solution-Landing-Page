@@ -1,4 +1,3 @@
-// src/components/ContactForm.js
 import React, { useState } from 'react';
 
 const Contact = () => {
@@ -18,7 +17,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log('Form data submitted:', formData);
   };
 
